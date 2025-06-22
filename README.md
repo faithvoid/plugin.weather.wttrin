@@ -8,7 +8,19 @@ Functional weather plugin for XBMC4Xbox/XBMC4Gamers using wttr.in's backend.
 - Copy the "weather.wttrin" folder to Q:/plugins/weather
 - Go to Q:/UserData/advancedsettings.xml and add the following entries (replace the city names with the 3 cities you'd like to cycle between)
 
- <pre> ``` &lt;weather&gt; &nbsp; &lt;areacode1&gt;Toronto, ON&lt;/areacode1&gt; &nbsp; &lt;areacode2&gt;New York City, NY&lt;/areacode2&gt; &nbsp; &lt;areacode3&gt;Tokyo, Japan&lt;/areacode3&gt; &nbsp; &lt;plugin&gt;weather.wttrin&lt;/plugin&gt; &nbsp; &lt;/weather&gt; ``` </pre> 
+<pre><code>
+&lt;weather&gt;
+
+    &lt;areacode1&gt;Toronto, ON&lt;/areacode1&gt;
+
+    &lt;areacode2&gt;New York City, NY&lt;/areacode2&gt;
+
+    &lt;areacode3&gt;Tokyo, Japan&lt;/areacode3&gt;
+
+    &lt;plugin&gt;weather.wttrin&lt;/plugin&gt;
+
+&lt;/weather&gt;
+</code></pre>
 
   - Open your Weather Settings, and set the default Weather service to "weather.wttrin"
   - After that, you should be set! Weather should function exactly how it used to in older versions.
