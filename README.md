@@ -10,15 +10,10 @@ Functional weather plugin for XBMC4Xbox/XBMC4Gamers using wttr.in's backend.
 
 <pre><code>
 &lt;weather&gt;
-
     &lt;areacode1&gt;Toronto, ON&lt;/areacode1&gt;
-
     &lt;areacode2&gt;New York City, NY&lt;/areacode2&gt;
-
     &lt;areacode3&gt;Tokyo, Japan&lt;/areacode3&gt;
-
     &lt;plugin&gt;weather.wttrin&lt;/plugin&gt;
-
 &lt;/weather&gt;
 </code></pre>
 
