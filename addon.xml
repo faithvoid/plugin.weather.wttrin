@@ -1,0 +1,12 @@
+<addon id="plugin.weather.wttrin" version="1.0.0" name="wttr Weather" provider-name="faithvoid">
+    <requires>
+        <import addon="xbmc.python" version="1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>weather</provides>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>xbox</platform>
+		<website>https://wttr.in</website>
+	</extension>
+</addon>
